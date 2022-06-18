@@ -1,0 +1,30 @@
+.main{
+    
+}
+.main button{
+    
+}
+.main .placeholder{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    background-color: rgb(245, 179, 221);
+    border-radius: 1rem;
+}
+.main .item{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 0.1px;
+}
+.main .item:hover{
+    width:calc(90%);
+    height: calc(90%);
+}
