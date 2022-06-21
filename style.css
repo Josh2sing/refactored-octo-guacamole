@@ -1,0 +1,42 @@
+.main{
+    
+}
+.main button{
+    
+}
+.main .AAA{}
+.main .placeholder{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    background-color: rgb(245, 179, 221);
+    border-radius: 1rem;
+}
+.main .item{
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 0.1px;
+}
+.main .item p{
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+.main .item .UUID{
+    color: gray;
+    font-weight: 100;
+    font-size: small;
+}
+.main .item:hover{
+    width:calc(360px);
+    transition: width 500ms;
+}
